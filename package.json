@@ -1,0 +1,19 @@
+{
+  "name": "web3-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "tsc && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.2",
+    "@types/web3": "^1.2.2",
+    "commander": "^9.1.0",
+    "typescript": "^4.4.3",
+    "web3": "^1.7.3"
+  }
+}

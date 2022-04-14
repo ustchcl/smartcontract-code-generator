@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "importHelpers": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceRoot": "./main.ts",
+    "incremental": true,
+    "lib": ["esnext"],
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "./output",
+    "./dist"
+  ]
+}
