@@ -1,0 +1,10 @@
+node_modules/
+
+# compiled
+dist/
+output/
+
+
+tsconfig.tsbuildinfo
+
+
